@@ -38,7 +38,6 @@ public class SmokeTests {
         options.addArguments("start-maximized");
 
         driver = new ChromeDriver(options);
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         logger.info("Starting SmokeTests Suite...");
     }
 
